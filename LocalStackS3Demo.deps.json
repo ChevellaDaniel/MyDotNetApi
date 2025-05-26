@@ -1,0 +1,93 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "LocalStackS3Demo/1.0.0": {
+        "dependencies": {
+          "AWSSDK.S3": "4.0.0.7",
+          "Microsoft.AspNetCore.OpenApi": "9.0.3"
+        },
+        "runtime": {
+          "LocalStackS3Demo.dll": {}
+        }
+      },
+      "AWSSDK.Core/4.0.0.5": {
+        "runtime": {
+          "lib/net8.0/AWSSDK.Core.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.5"
+          }
+        }
+      },
+      "AWSSDK.S3/4.0.0.7": {
+        "dependencies": {
+          "AWSSDK.Core": "4.0.0.5"
+        },
+        "runtime": {
+          "lib/net8.0/AWSSDK.S3.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.7"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.OpenApi/9.0.3": {
+        "dependencies": {
+          "Microsoft.OpenApi": "1.6.17"
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.AspNetCore.OpenApi.dll": {
+            "assemblyVersion": "9.0.3.0",
+            "fileVersion": "9.0.325.11220"
+          }
+        }
+      },
+      "Microsoft.OpenApi/1.6.17": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.OpenApi.dll": {
+            "assemblyVersion": "1.6.17.0",
+            "fileVersion": "1.6.17.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LocalStackS3Demo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AWSSDK.Core/4.0.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NG31J9azTmY1GKOZd+MFGLUsuD472AGz4BUceTiw0pdYkexD+xJ8kA87hDp/OTk2b6xgrhkQIpnttzIekkMSvw==",
+      "path": "awssdk.core/4.0.0.5",
+      "hashPath": "awssdk.core.4.0.0.5.nupkg.sha512"
+    },
+    "AWSSDK.S3/4.0.0.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dFELsA+Y7aXmvCTL83+oIWmr+0s/GpkqCKZK1ac7HPdYQFv+QHEAhrXdCJknsCKqK+v0yefkLzuKuSSP6k4tmA==",
+      "path": "awssdk.s3/4.0.0.7",
+      "hashPath": "awssdk.s3.4.0.0.7.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.OpenApi/9.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fKh0UyGMUE+lhbovMhh3g88b9bT+y2jfZIuJ8ljY7rcCaSJ9m2Qqqbh66oULFfzWE2BUAmimzTGcPcq3jXi/Ew==",
+      "path": "microsoft.aspnetcore.openapi/9.0.3",
+      "hashPath": "microsoft.aspnetcore.openapi.9.0.3.nupkg.sha512"
+    },
+    "Microsoft.OpenApi/1.6.17": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Le+kehlmrlQfuDFUt1zZ2dVwrhFQtKREdKBo+rexOwaCoYP0/qpgT9tLxCsZjsgR5Itk1UKPcbgO+FyaNid/bA==",
+      "path": "microsoft.openapi/1.6.17",
+      "hashPath": "microsoft.openapi.1.6.17.nupkg.sha512"
+    }
+  }
+}
